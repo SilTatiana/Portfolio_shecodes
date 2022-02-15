@@ -14,16 +14,28 @@ h1 {
   font-family: "Quicksand", sans-serif;
   font-weight: 500;
   padding-top: 20%;
-  text-align: justify;
   width: 75%;
+  
   
 }
 
-h2 {
-  color: #4d47f5;
-  text-align: center;
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
   font-family: "Quicksand", sans-serif;
-  padding-top: 20%;
+}
+ button{
+  color: #4d47f5;
+  padding: 20px;
+  padding-top: 10%;
+  border: none;
+  background: transparent;
+}
+button:hover {
+  color: black;
+  opacity: 0.5;
 }
 
 img{
