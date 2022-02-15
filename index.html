@@ -28,9 +28,11 @@
       rel="stylesheet"
     />
   </head>
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light transparent pt-3 m-3">
+  <nav
+    class="navbar fixed-top navbar-expand-lg navbar-light transparent pt-3 m-3"
+  >
     <div class="container-fluid">
-      <a class="navbar-brand" style="color:#4d47f5" href="#">Silvia Neves</a>
+      <a class="navbar-brand" style="color: #4d47f5" href="#">Silvia Neves</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -42,32 +44,54 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+      <div
+        class="collapse navbar-collapse justify-content-end"
+        id="navbarNavAltMarkup"
+      >
         <div class="navbar-nav">
-          <a class="nav-link active" style="color:#4d47f5" aria-current="page" href="#">Home</a>
-          <a class="nav-link" style="color:#4d47f5"  href="#">About</a>
-          <a class="nav-link" style="color:#4d47f5" href="#">Contact</a>
+          <a
+            class="nav-link active"
+            style="color: #4d47f5"
+            aria-current="page"
+            href="#"
+            >Home</a
+          >
+          <a class="nav-link" style="color: #4d47f5" href="#">About</a>
+          <a class="nav-link" style="color: #4d47f5" href="#">Contact</a>
         </div>
       </div>
     </div>
   </nav>
   <body class="container">
-    <div class="container header">
+    <div class="container-fluid header">
       <h1>
-        Hi! I am Silvia Neves.
-        I am a front-end developer based in London, I
+        Hi! I am Silvia Neves. I am a front-end developer based in London, I
         design & build user interfaces.
       </h1>
     </div>
-      <div class="flex-container">
-      <img src="images/Luna.JPG" class="img-fluid" alt="A Dog picture">
-      <img src="images/WeatherApp_Project.png" class="img-fluid" alt="Weather app screenshot">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-12 col-sm-4 pt-5">
+          <img src="images/Luna.JPG" class="img-fluid" alt="A Dog picture" />
+          <div class="card-body">
+            <a class="card-text" style="color: #4d47f5" href="#">Launch Project</a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 pt-5">
+          <img
+            src="images/WeatherApp_Project.png"
+            class="img-fluid"
+            alt="Weather app screenshot"
+          />
+          <div class="card-body pt-4">
+            <a class="card-text" style="color: #4d47f5" href="#">Launch Project</a>
+          </div>
+        </div>
       </div>
-      <div class="button">
-    <button>
-      Let's work together!
-    </button>
     </div>
-    <hr/>
+    <div class="button">
+      <button>Let's work together!</button>
+    </div>
+    <hr />
   </body>
 </html>
