@@ -14,8 +14,24 @@ h1 {
   font-family: "Quicksand", sans-serif;
   font-weight: 500;
   padding-top: 20%;
+  justify-content: center;
 }
+
+img{
+  width: 45%;
+  height: 420px;
+  padding-top: 50px;
+  margin: 5px;
+}
+
 .navbar a {
   font-family: "Quicksand", sans-serif !important;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
