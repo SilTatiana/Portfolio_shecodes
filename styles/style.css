@@ -14,7 +14,6 @@ h1 {
   font-family: "Quicksand", sans-serif;
   font-weight: 500;
   padding-top: 15%;
-  text-align: center;
 }
 
 .button {
@@ -24,10 +23,9 @@ h1 {
   font-size: 24px;
   font-family: "Quicksand", sans-serif;
 }
- button{
+button {
   color: #4d47f5;
   padding: 20px;
-  padding-top: 10%;
   border: none;
   background: transparent;
 }
@@ -50,4 +48,8 @@ a:hover {
 .navbar a {
   font-family: "Quicksand", sans-serif !important;
 }
-
+@media only screen and (max-width: 480px) {
+  img {
+    width: 75%;
+  }
+}
