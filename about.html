@@ -1,91 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Silvia Neves_about me</title>
     <link rel="stylesheet" href="styles/style.css" />
-<link
-  href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-  rel="stylesheet"
-  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-  crossorigin="anonymous"
-/>
-<script
-  src="https://kit.fontawesome.com/e228538b17.js"
-  crossorigin="anonymous"
-></script>
-<script
-  src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-  crossorigin="anonymous"
-></script>
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link
-  href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/e228538b17.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600&display=swap"
+    />
+  </head>
+  <body>
+    <!-- Navbar section -->
 
-</head>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+        <a class="navbar-brand fw-bold" style="color: #a8340d" href="#"
+          >Silvia Neves</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
 
-<body>
-</body>
-</html>
+    <!-- About_Hero section -->
 
+    <section class="about_hero">
+      <div class="row justify-content-center">
+        <div class="col-lg-4 col-sm-4">
+          <div class="about_item about_item--start">
+            <h1 class="display-4">about.</h1>
+            <img
+              class="portrait_img ms-3 pt-4"
+              src="images/fcb58eb4-3d96-40a1-b225-2b16caddd42f.jpg"
+              alt="Portrait"
+            />
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-6 align-self-center">
+          <div class="about_item about_item--end">
+            <h3
+              id="about_subtitle"
+              class="display-4 ms-5 text-center"
+              style="color: #586173"
+            >
+              "Coding has become my creative outlet: expressive, transformative
+              and meaningful"
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!-- 
-   <div class="container-fluid">
-   <div class="row justify-content-center">
-     <div class="col-12 col-sm-4 pt-5">
-       <img
-         id="dog_pic"
-         src="images/Adopt_Project.png"
-         class="img-fluid"
-         alt="A Dog picture"
-       />
-       <div class="card-body">
-  <a class="card-text" style="color: #4d47f5" href="#">Launch Project</a>
-</div
-       
-       height: 100vh;
-background: linear-gradient(
-  to top,
-  white 0%,
-  white 50%,
-  #eddfd8 50%,
-  #eddfd8 100%
-);
-       
-       
-     </div>
-     <div class="col-12 col-sm-4 pt-5">
-       <img
-         src="images/WeatherApp_Project.png"
-         class="img-fluid"
-         alt="Weather app screenshot"
-       />
-       <div class="card-body pt-4">
-         <a class="card-text" style="color: #4d47f5" href="#"
-           >Launch Project</a
-         >
-       </div>
-     </div>
-   </div>
- </div>
+    <!-- About me Section -->
 
-  <div class="header pt-4">
-      <h1 class="text-center ms-5 me-5">
-        Hello! I am Silvia Neves. I am a front-end developer based in London, I
-        design & build user interfaces.
-      </h1>
+    <div class="container w-75 about_paragraph">
+      <div class="row justify-content-center">
+        <p>
+          I'm Silvia Neves, an assistant accountant based in London. While I
+          grew up in Portugal, upon finishing my Diploma in Hospitality I moved
+          to London, refining my practice in hospitality and accountancy,
+          including working at Samba Brands Management. After two years in Hong
+          Kong, the allure of home; the people, the culture and life style,
+          brought me back to London.
+        </p>
+        <br />
+        <br />
+        <p>
+          While in Hong Kong, coding has become my creative outlet: expressive,
+          transformative and meaningful. My practice is highly versatile, with
+          the capacity to work underpressure and organised. I also adore working
+          with people, building relationships and create memorable experiences.
+          To discuss how I can help you, just click below...
+        </p>
+      </div>
     </div>
- 
- 
- 
- 
- 
- 
- 
- 
-
- -->
+  </body>
+</html>
