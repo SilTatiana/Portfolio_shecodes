@@ -111,7 +111,7 @@ section {
   height: 560px;
 }
 
-#about_subtitle h3 {
+#common_subtitle h3 {
   max-width: 550px;
   margin: auto;
 }
@@ -152,6 +152,7 @@ p {
 .grid-item-2 {
   grid-area: grid-item-2;
 }
+
 
 @media only screen and (max-width: 550px) {
   .container {
