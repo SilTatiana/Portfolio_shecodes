@@ -73,9 +73,12 @@ section {
 }
 
 /* Projects */
+
 .portfolio-item {
   overflow: hidden;
   position: relative;
+  max-width: 100%;
+  margin: 0 15%;
 }
 
 .portfolio-item img,
@@ -143,6 +146,11 @@ p {
 
 .title {
   grid-area: title;
+}
+
+.journal_img {
+  margin-bottom: 5%;
+  max-width: 75%;
 }
 
 .grid-item {
