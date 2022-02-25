@@ -81,6 +81,10 @@ section {
   margin: 0 15%;
 }
 
+.portfolio-overlay a {
+  text-decoration: none;
+}
+
 .portfolio-item img,
 .portfolio-item .portfolio-overlay {
   transition: all 0.4s ease;
